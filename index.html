@@ -8,13 +8,15 @@
   <title>Document</title>
   <link rel="stylesheet" href="css/default.css">
   <link rel="stylesheet" href="css/index.css">
-  <link rel="stylesheet" href="( min-width:0px ) and ( max-width:500px )" href="css/mobile.css">
+  <link rel="stylesheet" media="( min-width:0px ) and ( max-width:1199px )" href="css/mobile.css">
+  <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+  <script src="js/default.js"></script>
 </head>
 
 <body>
   <header>
     <h1><span class="hide">logohere</span></h1>
-    <button class="btn_menu">메뉴</button>
+    <button class="btn_menu"><span class="hide">메뉴</span></button>
     <div class="navigation">
       <div class="search">
         <input type="search" placeholder="search">
@@ -27,8 +29,61 @@
         </ul>
       </nav>
     </div>
-    <button class="btn_alram">알람</button>
+    <button class="btn_alram on"><span class="hide">알람</span></button>
   </header>
+  <main>
+    <section class="visual">
+      <div>
+        <h2>Join us today</h2>
+        <p class="txt">Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit, sed do<br> eiusmod
+          tempor <br class="web">incididunt ut labore <br>et dolore magna aliqua.</p>
+        <ul class="list">
+          <li>
+            <strong>Spend time smart</strong>
+            <p>Lorem ipsum dolor sit amet,</p>
+          </li>
+          <li>
+            <strong>Audio podcast</strong>
+            <p>Lorem ipsum dolor sit amet,</p>
+          </li>
+          <li>
+            <strong>Boost your time</strong>
+            <p>Lorem ipsum dolor sit amet,</p>
+          </li>
+          <li>
+            <strong>Quality</strong>
+            <p>Lorem ipsum dolor sit amet, </p>
+          </li>
+        </ul>
+        <div class="sign_box">
+          <div class="btn">
+            <button class="btn_type1 active">Sign up</button>
+            <button class="btn_type2">Login</button>
+          </div>
+          <div class="mobile_content">
+            <div class="chk_block">
+              <input type="radio" id="rad_1" name="rag" class="hide"><label for="rad_1" class="man"><span
+                  class="hide">남자</span></label>
+              <input type="radio" id="rad_2" name="rag" class="hide" checked><label for="rad_2" class="woman"><span
+                  class="hide">여자</span></label>
+            </div>
+            <ul class="info">
+              <li><input type="text" placeholder="userName" title="userName"></li>
+              <li><input type="text" placeholder="Mail" title="Mail"></li>
+              <li>
+                <select>
+                  <option>What Are Your Interests?</option>
+                </select>
+              </li>
+            </ul>
+            <div class="btn_join">
+              <button class="btn_join"><span class="hide">회원가입</span></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
 </body>
 
 </html>
