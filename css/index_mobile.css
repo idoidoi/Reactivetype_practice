@@ -1,0 +1,39 @@
+body { background: url(../images/bg_visual.png) no-repeat 45% 30% / auto 130%;}
+
+.visual { display: block; height: auto; padding: 8.85rem 2.75rem 0; box-sizing: border-box;}
+.visual h2 { width: 7.4rem; text-align: left;}
+.visual .txt { padding: 3rem 0 4.2rem; text-align: left;}
+.visual .txt br { display: block; }
+.visual .txt br.web { display: none; }
+.visual .list { flex-direction: column; width: 100%; margin: 0 auto 4.2045rem;}
+.visual .list li { padding-bottom: 1.1685rem; background-size: 3.6425rem auto;}
+.visual .list li:nth-child(1) { order: 2;}
+.visual .list li:nth-child(2) { order: 3;}
+.visual .list li:nth-child(3) { order: 4;}
+.visual .list li:nth-child(4) { order: 1;}
+.visual .list li strong { font-size: .75rem;}
+.visual .list li p { padding: .658rem 0 0; font-size: .7rem;}
+
+.visual .sign_box { background: #fff; border-radius: .8rem; margin: 0 0 3.75rem;}
+.visual .sign_box .btn { padding: 2.4rem 0 0;}
+.visual .sign_box .btn button { width: calc(50% - 2.6rem); margin: 0 0.6rem; border: 1px solid #4621ad; height: 1.5rem; border-radius: 1.5rem; color: #4621ad; font-size: .6rem; box-shadow: none;}
+.visual .sign_box .btn button.active { background: #4621ad; color: #fff;}
+.visual .mobile_content { display: block; padding: 2rem 1.25rem 1.5rem;}
+.visual .chk_block { font-size: 0; letter-spacing: 0; word-spacing: 0; padding: 0 0 2.5rem; }
+.visual .chk_block label { display: inline-block; width: calc(50% - 1.2rem); margin: 0 .4rem 0 .8rem; height: 5.8rem; border-radius: .5rem; background: #fff; box-shadow: 0 6px 12px #00000030; background: no-repeat center;}
+.visual .chk_block label ~ label { margin: 0 .8rem 0 .4rem;}
+.visual .chk_block .man { background-image: url(../images/ico_man_on.png)}
+.visual .chk_block .woman { background-image: url(../images/ico_woman_on.png)}
+.visual .chk_block input:checked + label { background-color: #4621ad}
+.visual .chk_block input:checked + .man { background-image: url(../images/ico_man_off.png);}
+.visual .chk_block input:checked + .woman { background-image: url(../images/ico_woman_off.png);}
+.visual .mobile_content .info li { padding: 0 0 .8rem;}
+.visual .mobile_content .info input,
+.visual .mobile_content .info select { width: 100%; height: 2.25rem; border:1px solid #4621ad; border-radius: 2.25rem; text-indent: 1.5rem; font-size: .6rem; box-sizing: border-box; background: no-repeat right 1.35rem center; }
+.visual .mobile_content .info select,
+.visual .mobile_content .info input::placeholder { color: #cdd0d9;}
+.visual .mobile_content .info input { background-image: url(../images/bg_input.png);}
+.visual .mobile_content .info select {appearance: none; background-image: url(../images/bg_select.png);} /*기존 방향표 제거 */
+.visual .mobile_content .info select::-ms-expand { display: none;} /*익스플로어에서 방향표 제거 */
+.visual .mobile_content .btn_join { padding: 1.2rem 0 0; text-align: center; }
+.visual .mobile_content .btn_join button { width: 2.5rem; height: 2.5rem; border-radius: 100%; background: url(../images/bg_join.png) no-repeat center #4723ae;} 

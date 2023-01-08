@@ -1,18 +1,5 @@
-html { font-size: 20px;}
-body { background: url(../images/bg_visual.png) no-repeat 0 0 / cover; font-size: 1rem;}
+body { background: url(../images/bg_visual.png) no-repeat 0 0 / cover;}
 body:after { content: ''; position: fixed; left: 0; right: 0; top: 0; bottom: 0; background: rgba(70,33,173,.87); z-index: -1;}
-h1 { position: absolute; left: 50%; top: 0; width: 12.35rem; height: 5.2rem; background: url(../images/h1_logo.png) no-repeat center / 4.75rem auto #fff; transform: translate(-50%); border-radius: 0 0 2.25rem 2.25rem; box-shadow: 0px 0.15rem 0.3rem #00000042; }
-
-header { position: absolute; left: 50%; top: 0; padding: 7.4rem 0 0; width: 64.45rem; transform: translateX(-50%)}
-header nav ul { display: flex;}
-header nav ul li { padding: 0 3rem 0 0;}
-header nav ul a { position: relative; font-size: .75rem; line-height: 1rem; color: #c6c6d4; transition: all .3s;}
-header nav ul a:hover { color: #fff;}
-header nav ul a:after { content: ''; position: absolute; left: 0; right: 0; bottom: -0.125rem; height: .15rem; background: #fff; transition: all .3s; transform: translateY(0.5rem); opacity: 0;}
-header nav ul a:hover:after { transform: translateY(0); opacity: 1;}
-header .search,
-header .btn_alram,
-header .btn_menu { display: none;}
 
 .visual { display: flex; justify-content: center; align-items: center; height: 100vh; text-align: center; color: #fff}
 .visual h2 { font-size: 2rem;}

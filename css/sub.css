@@ -1,0 +1,38 @@
+header { position: static; margin: 0 auto; transform: translateX(0);}
+header nav ul a:hover { color: #000;}
+header nav ul a:hover { background: #4723ae;}
+header .search { display: block;}
+
+header .navigation { position: relative;}
+header .navigation .search { position: absolute; right: 0; top: 0;}
+header .navigation input { background-position: 1.24rem center; text-indent: 2.8915rem;}
+header .navigation input.active { background-image:url(../images/ico_search.png)}
+header .navigation input::placeholder { text-align: left; text-indent: 2.8915rem; }
+
+main { width: 64.45rem; margin: 0 auto; padding: 7.25rem 0 0; }
+.detail_info { position: relative; padding: 0 5.9rem 0 16.55rem; height: 18.75rem; margin: 0 0 1.65rem;}
+.detail_info h2 { padding : 2.05rem 0 .9rem; font-size: 2rem; color: #303336; line-height: 2.55rem;}
+.detail_info p { font-size: .65rem; line-height: 1.1rem; color: #7b8591;}
+.detail_info .thoumb { position: absolute; left: 0; top: 0;}
+.detail_info .thoumb .mark { position: absolute; right: .859rem; top: 0;}
+.detail_info .thoumb .tuoumbnail { width: 14.65rem; height: 18.75rem; border-radius: .5rem;}
+.detail_info .more { position: absolute; top: 0; right: 0; width: 3.6rem; height: 3.6rem; background: url(../images/btn_more.png) no-repeat right .85rem top .15rem #4621ad; border-radius: 0 0 0 100%;}
+.detail_info .list { position: absolute; bottom: 0;}
+.detail_info .list li { float: left; padding: 0 .7785rem 0 0;}
+.detail_info .list li img { width: 4.3rem; height: 4.5rem; border-radius: .5rem;}
+
+.new_list ul { display: flex;}
+.new_list li { position: relative; box-shadow: 0 .15rem .3rem #00000029; border-radius: .5rem; }
+.new_list li ~ li { margin-left: 1.6915rem; }
+.new_list li .info { display: block; width: 11.5rem;}
+.new_list li .info img { width: 100%; height: 7.5rem;}
+.new_list li .info figcaption { display: flex; flex-direction: column; justify-content: center; height: 4.0625rem; background: url(../images/btn_more2.png) no-repeat right .9565rem center #fff; padding: 0 0 0 .943rem;}
+.new_list li .info figcaption strong { font-size: .45rem; color: #303336;}
+.new_list li .info figcaption span { font-size: .35rem; color: #7b8591;}
+.new_list li .profile { position: absolute; right: .8rem; top: .8rem;}
+.new_list li .profile img {width: 1.8485rem; height: 1.8485rem; border-radius: 100%;}
+
+.playlist { float: left; width: 13rem;}
+.information { float: right; width: 21.15rem;}
+.player { position: fixed; left: 0; right: 0; bottom: 0; background: #4621ad; height: 3.25rem;}
+.player > div { width: 64.45rem; margin: 0 auto; color: #fff; }

@@ -1,16 +1,18 @@
-/* Style */
-html { font-size: 10px;}
-body { overflow-x:hidden; font-size: 1rem;}
-body.hidden { position: fixed; overflow-y:hidden;  touch-action: none;}
-main { font-size: 1.4rem; line-height:2.1rem; color:#666; display: block;}
-a, button { color:#666;}
-p, li{word-break: keep-all;}
+html { font-size: 20px;}
+body { font-size: 1rem;}
+h1 { position: absolute; left: 50%; top: 0; width: 12.35rem; height: 5.2rem; background: url(../images/h1_logo.png) no-repeat center / 4.75rem auto #fff; transform: translate(-50%); border-radius: 0 0 2.25rem 2.25rem; box-shadow: 0px 0.15rem 0.3rem #00000042; }
 
-.clear {clear:both;}
-.clear:after { content:""; display:block; clear:both;}
-caption > div,
-legend,
-.hide {overflow: hidden; display:block; position:absolute; border: 0; width: 1px; height: 1px; clip: rect(1px, 1px, 1px, 1px);}
+header { position: absolute; left: 50%; top: 0; padding: 7.4rem 0 0; width: 64.45rem; transform: translateX(-50%)}
+header nav ul { display: flex;}
+header nav ul li { padding: 0 3rem 0 0;}
+header nav ul a { position: relative; font-size: .75rem; line-height: 1rem; color: #c6c6d4; transition: all .3s;}
+header nav ul a:hover { color: #fff;}
+header nav ul a:after { content: ''; position: absolute; left: 0; right: 0; bottom: -0.125rem; height: .15rem; background: #fff; transition: all .3s; transform: translateY(0.5rem); opacity: 0;}
+header nav ul a:hover:after { transform: translateY(0); opacity: 1;}
+header .search,
+header .btn_alram,
+header .btn_menu { display: none;}
 
-.skip { position: absolute; left: 0; right: 0; top:-100%; transition: all .5s; line-height: 5rem; background: #000; color:#fff; text-align: center; z-index: 100;}
-.skip:focus { top: 0; }
+header .navigation input { width: 10.4335rem; height: 1.7785rem; border-radius: 1.7785rem; border: none; background: url(../images/ico_search.png) no-repeat 3.35rem center / .919rem auto #f6f6f6;}
+header .navigation input.active { background: none;}
+header .navigation input::placeholder { text-align: center; text-indent: 1.4935rem;}
